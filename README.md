@@ -29,11 +29,13 @@ EndSection
 
 ### Install libraries
 
+[CAN HAT Wiki](https://www.waveshare.com/wiki/2-CH_CAN_HAT)
+
+### Upgrade pip3
+
 ```
-tar zxvf bcm2835-1.60.tar.gz
-cd bcm2835-1.60
-sudo ./configure
-sudo make
-sudo make check
-sudo make install
+sudo -H pip3 install --upgrade pip
 ```
+
+
+
