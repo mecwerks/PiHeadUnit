@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=marxy
+Description=Raspberry Pi Desktop Splash
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/marxy
+ScriptFile=/usr/share/plymouth/themes/marxy/marxy.script
